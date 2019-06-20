@@ -1,6 +1,6 @@
 var axios = require("axios");
 var fs = require("fs");
-var moment = require("moment.js");
+var moment = require("moment");
 
 // Create the TV constructor
 var Band = function () {
@@ -19,7 +19,7 @@ var Band = function () {
       // showData ends up being the string containing the show data we will print to the console
       var showData = [
         "Name of the Venue: " + jsonData.venue.name,
-        "Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.city,
+        "Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.country,
         "Date of the Event: " + moment(jsonData.datetime).format('MM/DD/YYYY'),
       ].join("\n\n");
 
