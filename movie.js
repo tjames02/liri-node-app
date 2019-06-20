@@ -14,7 +14,15 @@ var Movie = function() {
       // Place the response.data into a variable, jsonData.
       var jsonData = response.data;
         
-        console.log(jsonData);
+        console.log("Title of the movie: "+jsonData.Title);
+        console.log("Year the movie came out: "+jsonData.Year);
+        console.log("IMDB Rating of the movie: "+jsonData.imdbRating); 
+        console.log("Country where the movie was produced: "+jsonData.Country); 
+        console.log("Language of the movie: "+jsonData.Language); 
+        console.log("Plot of the movie: "+jsonData.Plot); 
+        console.log("Actors in the movie: "+jsonData.Actors);
+          
+        
       // showData ends up being the string containing the show data we will print to the console
     //   var showData = [
     //     "Name of the Venue: " + jsonData.venue.name,
