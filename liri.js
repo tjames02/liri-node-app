@@ -45,14 +45,25 @@ if (command === "concert-this") {
 }else if (command === "spotify-this-song") {
   console.log("Searching Spotify for information about a song");
   spotify.search({ type: 'track', query: term }, function(err, data) {
+    
+    
     if (err) {
       return console.log('Error occurred: ' + err);
+    }else{
+      for (var i = 0; i<5; i++){
+        var songData = data.tracks.items[i];
+          console.log("Artist: " + songData.artists[0].name);
+          console.log("Song: " + songData.name);
+          console.log("Preview URL: " + songData.preview_url);
+          console.log("Album: " + songData.album.name);
+          console.log("----------");
+      }
+     
     }
-   
-  console.log(data); 
+      
   });
 }else if (command === "movie-this"){
-    console.log ("Searching the OMBD API for information about movie")
+    console.log ("Searching the OMBD API for information about "+term);
     movie.findMovie(term);
 }
 // else if (command === "do-what-it-says"){
