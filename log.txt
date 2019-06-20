@@ -11,3 +11,9 @@ Venue Location: Cologne, Cologne
 
 Date of the Event: 2019-06-20T19:00:57
 ------------------------------------------------------------
+Name of the Venue: Lanxness Arena
+
+Venue Location: Cologne, Cologne
+
+Date of the Event: 2019-06-20T19:00:57
+------------------------------------------------------------
