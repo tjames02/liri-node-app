@@ -16,12 +16,12 @@ https://tjames02.github.io/liri-node-app
 
 Spotify example:
 
-![Spotify example](https://github.com/iangacek/liri-node-app/blob/master/assets/screenshots/Spotify-example.PNG)
+![Spotify example](https://github.com/)
 
 OMDB example:
 
-![OMDB example](https://github.com/iangacek/liri-node-app/blob/master/assets/screenshots/OMDB-example.PNG)
+![OMDB example](https://github.com/)
 
 BandsInTown example:
 
-![BandsInTown example](https://github.com/iangacek/liri-node-app/blob/master/assets/screenshots/BandsInTown-example.PNG)
+![BandsInTown example](https://github.com/)
